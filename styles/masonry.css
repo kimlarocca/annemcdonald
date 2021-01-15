@@ -17,6 +17,7 @@
 	-o-transition: all .5s ease;
 	transition: all .5s ease;
 	cursor: pointer; background-color:#e7e8ee;
+	text-align: center;
 }
 .masonry .item:hover {
 	opacity:.6;
