@@ -73,14 +73,14 @@ $pageTitle = $row_currentPage['pageTitle'];
   </div>
   <div class="main clearfix">
     <nav id="menu" class="nav">
-      <ul>
-        <li> <a href="index.php"> <span class="icon"> <i aria-hidden="true" class="icon-home"></i> </span> <span>Home</span> </a> </li>
-        <li> <a href="listings.php"> <span class="icon"> <i aria-hidden="true" class="icon-listings"></i> </span> <span>Listings</span> </a> </li>
-        <li> <a href="search.php"> <span class="icon"> <i aria-hidden="true" class="icon-search"></i> </span> <span>MLS Search</span> </a> </li>
-        <li> <a href="localInfo.php"> <span class="icon"> <i aria-hidden="true" class="icon-local"></i> </span> <span>Local Info</span> </a> </li>
-        <li> <a href="about.php"> <span class="icon"> <i aria-hidden="true" class="icon-about"></i> </span> <span>About Me</span> </a> </li>
-        <li> <a href="contact.php"> <span class="icon"> <i aria-hidden="true" class="icon-contact"></i> </span> <span>Contact</span> </a> </li>
-      </ul>
+        <ul>
+            <li><a href="index.php">Home<br />Page</a></li>
+            <li><a href="cloth-masks.php">Cloth Masks</br>& Lanyards</a></li>
+            <li><a href="herbal-heat-packs.php">Herbal</br>Heat Packs</a></li>
+            <li><a href="wildlife-photos.php">Everglades</br>Wildlife Photos</a></li>
+            <li><a href="listings.php">Real</br>Estate</a></li>
+            <li><a href="about.php">About</br>Me</a></li>
+        </ul>
     </nav>
   </div>
 </div>

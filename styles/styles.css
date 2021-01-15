@@ -46,13 +46,13 @@ ht
 h2, h3, h4, h5, h6 { color:#515554; }
 .crop-height {
   max-height: 180px;
-  overflow: hidden; 
+  overflow: hidden;
 }
 .scale {
   display: block;
   max-width: 100%; min-width:300px!important;
   height: auto !important;
-  -ms-interpolation-mode: bicubic; 
+  -ms-interpolation-mode: bicubic;
 }
 /* HEADER */
 
@@ -74,7 +74,7 @@ h2, h3, h4, h5, h6 { color:#515554; }
 .hero h1 {
 	color: #fff;
 	font-family: 'Lato', Calibri, Arial, sans-serif;
-	font-size: 3.75em; font-weight:normal; padding:10px;text-shadow: 2px 2px 3px #000; 
+	font-size: 3.75em; font-weight:normal; padding:10px;text-shadow: 2px 2px 3px #000;
 }
 @media all and (max-width: 768px) {
 .hero h1 {
@@ -90,7 +90,7 @@ h2, h3, h4, h5, h6 { color:#515554; }
 
 .main {
 	margin: auto;
-	min-height: 240px;
+	min-height: 150px;
 	max-width: 100%;
 	width: 1240px;
 }
@@ -106,7 +106,6 @@ h2, h3, h4, h5, h6 { color:#515554; }
 	font-family: 'icomoon';
 	src: url('../fonts/icomoon.svg#icomoon') format('svg');
 }
-;
 }
 .icon-listings, .icon-search, .icon-home, .icon-local, .icon-about, .icon-contact, .icon-menu {
 	font-family: 'icomoon';
@@ -240,7 +239,7 @@ a, button {
 	border-bottom: 4px solid #4e92a9;
 }
 /* Placing the icon */
-	
+
 .icon {
 	padding-top: 1.4em;
 }
@@ -254,10 +253,11 @@ a, button {
 }
 /* Animating the height of the element*/
 .nav a {
-	height: 9em;
+	height: 5em;
+	padding: 1em 0;
 }
 .no-touch .nav a:hover,  .nav a:active,  .nav a:focus {
-	height: 10em;
+	height: 5.5em;
 }
 /* Making the text follow the height animation */
 .no-touch .nav a:hover .icon + span {
@@ -428,7 +428,7 @@ a, button {
 	display: block;
 }
 /* Animating the height of the navigation when the button is clicked */
-	
+
 	/* When JavaScript is disabled, we hide the menu */
 .no-js .nav ul {
 	max-height: 30em;
@@ -450,7 +450,7 @@ a, button {
 	transition: max-height .4s;
 }
 /* Adapting the layout of the menu for smaller screens : icon on the left and text on the right*/
-	
+
 .nav li span {
 	display: inline-block;
 	height: 100%;
@@ -526,7 +526,7 @@ a, button {
 	text-transform:uppercase;
 	cursor:pointer; display:inline-block;
 	padding:10px; margin:10px;
-	font-weight:700; letter-spacing: 0.08em; background-color: transparent;	
+	font-weight:700; letter-spacing: 0.08em; background-color: transparent;
   font-family: 'Raleway', sans-serif;
   font-size: 16px; min-width:250px;
 }
