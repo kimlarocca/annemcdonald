@@ -157,6 +157,17 @@ $(document).ready(function() {
 </script>
 <!-- InstanceEndEditable -->
 <script src="scripts/scripts.js"></script>
+<script type="text/javascript" src="scripts/masonry.pkgd.min.js"></script>
+<script type="text/javascript" src="scripts/imagesloaded.pkgd.min.js"></script>
+<script>
+    $(document).ready(function() {
+        // initiallize masonry
+        var $container = $('.masonry').masonry();
+        $container.imagesLoaded( function() {
+            $container.masonry();
+        });
+    });
+</script>
 </body>
 <!-- InstanceEnd --></html>
 <?php
