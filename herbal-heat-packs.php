@@ -1,7 +1,7 @@
 <?php require_once('Connections/cms.php'); ?>
 <?php
 $pageID = 16;
-$albumID = 591;
+$albumID = 592;
 ?>
 <?php
 if (!function_exists("GetSQLValueString")) {
@@ -52,7 +52,7 @@ $row_websiteInfo = mysqli_fetch_assoc($websiteInfo);
 $totalRows_websiteInfo = mysqli_num_rows($websiteInfo);
 ?>
 <?php
-$pageTitle = 'Cloth Masks & Lanyards';
+$pageTitle = 'Herbal Heat Packs';
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/template.dwt.php" codeOutsideHTMLIsLocked="false" -->
