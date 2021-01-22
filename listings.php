@@ -85,8 +85,8 @@ $pageTitle = $row_currentPage['pageTitle'];
             <li><a href="cloth-masks.php">Cloth Masks</br>& Lanyards</a></li>
             <li><a href="herbal-heat-packs.php">Herbal</br>Heat Packs</a></li>
             <li><a href="wildlife-photos.php">Everglades</br>Wildlife Photos</a></li>
-            <li> <a href="realestate.php">Real</br>Estate</a> </li>
-            <li><a href="about.php">About</br>Me</a></li>
+            <li><a href="shell-ornaments.php">Shell</br>Ornaments</a></li>
+            <li><a href="realestate.php">Real</br>Estate</a></li>
         </ul>
     </nav>
   </div>
