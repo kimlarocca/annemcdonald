@@ -1,6 +1,6 @@
 <?php require_once('Connections/cms.php'); ?>
 <?php
-$pageID = $aboutmePage;
+$pageID = $homePage;
 ?>
 <?php
 if (!function_exists("GetSQLValueString")) {
